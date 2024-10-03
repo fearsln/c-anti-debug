@@ -1,0 +1,9 @@
+﻿  antidbg console test.cpp
+C:\Users\nico\source\repos\antidbg console test\antidbg console test\antidbg console test.cpp(114,5): error C2664: 'void ScanWindowForTitle(HWND,const std::string &,std::string &,std::string &)': cannot convert argument 3 from 'std::string' to 'std::string &'
+      C:\Users\nico\source\repos\antidbg console test\antidbg console test\antidbg console test.cpp(114,55):
+      A non-const reference may only be bound to an lvalue
+      C:\Users\nico\source\repos\antidbg console test\antidbg console test\antidbg console test.cpp(65,6):
+      see declaration of 'ScanWindowForTitle'
+      C:\Users\nico\source\repos\antidbg console test\antidbg console test\antidbg console test.cpp(114,5):
+      while trying to match the argument list '(HWND, const std::string, std::string, std::string)'
+  
